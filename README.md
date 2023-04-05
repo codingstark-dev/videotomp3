@@ -1,13 +1,12 @@
 ## Convert any video url to an MP3 file using Python and Flask
 
-
-The endpoint uses the moviepy library to extract the audio from the video at the provided URL, saves it as an MP3 file, reads the file as bytes, removes the file, and returns the bytes as a response with the MIME type audio/mpeg.
-
-<!-- create repo clone -->
-
 ```bash
 git clone https://github.com/codingstark-dev/videotomp3.git
 ```
+
+The endpoint uses the moviepy library to extract the audio from the video at the provided URL, saves it as an MP3 file, reads the file as bytes, removes the file, and returns the bytes as a response with the MIME type audio/mpeg.
+
+![image](ss.jpg)
 
 Here is a breakdown of the code:
 
